@@ -1,0 +1,3 @@
+ggplot(data = diamonds) + 
+   geom_point(mapping = aes(x = carat, y = price)) +
+   labs(title="Diamonds carat vs price", subtitle="Banding at 1/2 carat increments")
